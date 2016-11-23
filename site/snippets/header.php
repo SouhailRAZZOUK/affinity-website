@@ -8,19 +8,20 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <?= css('assets/css/index.css') ?>
+  <?= css('assets/css/main.css') ?>
+  <?= css('assets/vendor/css/font-awesome.css') ?>
 
 </head>
 <body>
 
-  <header class="header wrap wide" role="banner">
-    <div class="grid">
+  <header id="header">
+    <div class="inner">
 
-      <div class="branding column">
-        <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
-      </div>
+      <a href="<?= url() ?>" rel="home" class="logo"><?= $site->title()->html() ?></a>
 
       <?php snippet('menu') ?>
+      
+      <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
     </div>
   </header>

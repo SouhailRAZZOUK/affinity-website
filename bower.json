@@ -1,9 +1,7 @@
 {
-  "name": "Bootstrap template with Pjax and Cycle2",
+  "name": "affinity dependencies",
   "dependencies": {
-    "bootstrap-sass-official": "latest",
-    "jquery-pjax": "latest",
-    "jquery-cycle2": "latest",
+    "skel": "latest",
     "OwlCarousel": "latest",
     "fontawesome": "latest",
     "page-scroll-to-id": "latest"
