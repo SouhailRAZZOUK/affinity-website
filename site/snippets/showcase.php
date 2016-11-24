@@ -1,6 +1,6 @@
 <?php
 
-$projects = page('products')->children()->visible();
+$categories = page('categories')->children()->visible();
 
 /*
 
@@ -16,25 +16,26 @@ https://getkirby.com/docs/templates/snippets
 
 */
 
-if(isset($limit)) $projects = $projects->limit($limit);
+if(isset($limit)) $categories = $categories->limit($limit);
+
+$i = 0;
 
 ?>
 
-<ul class="showcase grid gutter-1">
+<div class="row">
 
-  <?php foreach($projects as $project): ?>
-
-    <li class="showcase-item column">
-        <a href="<?= $project->url() ?>" class="showcase-link">
-          <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
-            <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
-          <?php endif ?>
-          <div class="showcase-caption">
-            <h3 class="showcase-title"><?= $project->title()->html() ?></h3>
-          </div>
-        </a>
-    </li>
-
+  <?php foreach($categories as $categorie): $i++;?>
+  
+  <div class="3u 4u(medium) 6u(small) 12u(xsmall) product">
+    <a href="<?= $categorie->url() ?>" class="product-link">
+      <?php if($image = $categorie->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
+        <img  src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $categorie->title()->html() ?>" class="image fit" />
+      <?php endif ?>
+      <div class="product-caption">
+        <h3 class="product-title"><?= $categorie->title()->html() ?></h3>
+      </div>
+    </a>
+  </div>
   <?php endforeach ?>
 
-</ul>
+</div>

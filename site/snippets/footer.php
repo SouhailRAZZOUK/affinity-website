@@ -47,7 +47,8 @@
 			</footer>
 
   <?= js("assets/vendor/jquery/dist/jquery.js")?>
-  <?= js("assets/vendor/skel/skel.js")?>
+  <?= js("assets/vendor/skel/dist/skel.min.js")?>
+  <?= js("assets/vendor/skel/dist/skel-layout.min.js")?>
   <?= js("assets/js/util.js")?>
   <?= js("assets/js/main.js")?>
 		

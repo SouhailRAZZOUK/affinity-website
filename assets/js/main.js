@@ -14,6 +14,13 @@
 			small:	'(max-width: 736px)',
 			xsmall:	'(max-width: 480px)'
 		});
+		
+	// Layout.
+		skel.layout({
+			reset: "normalize",
+			grid: true,
+			container: 1024
+		});
 
 	$(function() {
 

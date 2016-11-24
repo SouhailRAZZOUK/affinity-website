@@ -1,0 +1,7 @@
+#products-section {
+  padding: 6em 0 5em;
+}
+
+#products-section .product {
+  min-height: 500px;
+}

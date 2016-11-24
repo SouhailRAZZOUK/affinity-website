@@ -16,6 +16,8 @@ RewriteEngine on
 #
 # RewriteBase /mysite
 
+RewriteBase /affinity
+
 # In some enviroments it's necessary to
 # set the RewriteBase to:
 #
