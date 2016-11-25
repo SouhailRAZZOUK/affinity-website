@@ -1,20 +1,3 @@
-  <footer class="footer cf" role="contentinfo">
-    <div class="wrap wide">
-
-      <p class="footer-copyright"></p>
-
-      <p class="footer-madewithkirby">
-        <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b class="heart">♥</b></a>
-      </p>
-    
-    </div>
-  </footer>
-
-  
-
-</body>
-</html>
-
 <footer id="footer">
 				<div class="inner">
 
@@ -49,8 +32,11 @@
   <?= js("assets/vendor/jquery/dist/jquery.js")?>
   <?= js("assets/vendor/skel/dist/skel.min.js")?>
   <?= js("assets/vendor/skel/dist/skel-layout.min.js")?>
+  <?= js("assets/vendor/owl.carousel/dist/owl.carousel.js")?>
   <?= js("assets/js/util.js")?>
+	<?= js("assets/js/home.js")?>
   <?= js("assets/js/main.js")?>
+
 		
 	</body>
 </html>

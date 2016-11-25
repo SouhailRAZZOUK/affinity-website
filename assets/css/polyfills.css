@@ -2,6 +2,7 @@
   padding: 6em 0 5em;
 }
 
-#products-section .product {
-  min-height: 500px;
+#products-carousel .product {
+  height: 500px;
+  margin: 5px;
 }

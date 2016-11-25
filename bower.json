@@ -2,8 +2,8 @@
   "name": "affinity dependencies",
   "dependencies": {
     "skel": "latest",
-    "OwlCarousel": "latest",
     "fontawesome": "latest",
-    "page-scroll-to-id": "latest"
+    "page-scroll-to-id": "latest",
+    "owl.carousel": "^2.2.0"
   }
 }

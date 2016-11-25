@@ -8,7 +8,10 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <?= css('assets/vendor/css/font-awesome.css') ?>
+  <?= css('assets/vendor/fontawesome/css/font-awesome.css') ?>
+  <?= css("assets/vendor/owl.carousel/dist/assets/owl.carousel.css")?>
+  <?= css("assets/vendor/owl.carousel/dist/assets/owl.theme.default.css")?>
+  <?= css("assets/vendor/owl.carousel/dist/assets/owl.transitions.css")?>
   <?= css('assets/css/main.css') ?>
   <?= css('assets/css/polyfills.css') ?>
 
