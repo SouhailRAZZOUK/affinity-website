@@ -16,7 +16,7 @@
   <?= css('assets/css/polyfills.css') ?>
 
 </head>
-<body>
+<body class="<?= $page->class()?>">
 
   <header id="header">
     <div class="inner">

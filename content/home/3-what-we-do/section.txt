@@ -1,0 +1,12 @@
+Title: What We Do
+----
+Header: 
+
+## What We Do
+
+----
+Footer:
+
+Visite our [Shop](#) and get a full look at our products
+
+

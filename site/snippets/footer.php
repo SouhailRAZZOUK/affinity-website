@@ -35,6 +35,7 @@
   <?= js("assets/vendor/owl.carousel/dist/owl.carousel.js")?>
   <?= js("assets/js/util.js")?>
 	<?= js("assets/js/home.js")?>
+	<?= js("assets/js/shop.js")?>
   <?= js("assets/js/main.js")?>
 
 		

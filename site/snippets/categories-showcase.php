@@ -1,6 +1,6 @@
 <?php
 
-$categories = page('categories')->children()->visible();
+$categories = page('shop/categories')->children()->visible();
 
 /*
 

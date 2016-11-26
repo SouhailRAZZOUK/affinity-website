@@ -1,8 +1,41 @@
 $(document).ready(function() {
   
-  var productsCarousel = $("#products-carousel");
+  var whoWeAreCarousel = $("#wwa-carousel");
+
+  whoWeAreCarousel.owlCarousel({
+      items:1,
+      loop:true,
+      autoplay:true,
+      animateOut: 'fadeOut'
+  });
   
-  productsCarousel.owlCarousel();
+});
+
+
+//   var productsCarousel = $("#products-carousel");
+//   productsCarousel.owlCarousel({
+//     margin:10,
+//     responsiveClass:true,
+//     responsive:{
+//           0:{
+//               items:1,
+//               nav:true
+//           },
+//           480:{
+//               items:2,
+//               nav:true
+//           },
+//           980:{
+//               items:3,
+//               nav:true,
+//               loop:false
+//           },
+//           1280:{
+//               items:4,
+//               nav:true
+//           }
+//       }
+//   });
   
   // Custom Navigation Events
   // $(".next").click(function(){
@@ -17,5 +50,3 @@ $(document).ready(function() {
   // $(".stop").click(function(){
   //   owl.trigger('owl.stop');
   // })
-  
-});

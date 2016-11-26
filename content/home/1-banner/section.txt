@@ -1,0 +1,12 @@
+Title: 
+----
+Header: 
+
+# Welcome to Affinity PrintShop
+
+A.C.S customizes items for companies and individuals around the world. Such as Tshirts, polo shirts, Banners Tents, wristbands , Lapels pins and Emblems, Books, Mugs, Hats, Working gears, Pens, Fabric etc ...
+
+----
+Footer: 
+
+[Go Shopping](/shop){.button}
