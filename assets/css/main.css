@@ -2710,8 +2710,8 @@
 		.subpage #header {
 			background: #6cc091;
 			top: 0;
-			height: 44px;
-			line-height: 44px;
+			height: 52px;
+			line-height: 52px;
 			position: fixed;
 		}
 
@@ -2738,7 +2738,7 @@
 			display: inline-block;
 			font-family: "Lobster"; 
 			font-weight: 400;
-			height: inherit;
+			height: 100%;
 			left: 0;
 			line-height: inherit;
 			margin: 0;

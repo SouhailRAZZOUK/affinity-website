@@ -1,10 +1,11 @@
 $(document).ready(function() {
   
-  var productsCarousel = $("#products-carousel");
+  var categoriesCarousel = $("#categories-carousel");
   
-  productsCarousel.owlCarousel({
+  categoriesCarousel.owlCarousel({
     margin:10,
     responsiveClass:true,
+    nav:true,
     responsive:{
           0:{
               items:1,

@@ -14,3 +14,35 @@
 #wwa-carousel .owl-dots {
   display: none !important;
 }
+
+main.main > header > h1 {
+  font-family: "Lobster"; 
+  font-weight: 400;
+  color: #000;
+  font-size: 60px;
+  text-align: center;
+}
+
+main.main > header > h1:before, main.main > header > h1:after {
+  content: '\f005';
+  font-family: 'FontAwesome';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+  vertical-align: middle;
+}
+
+
+#categories-carousel .category-caption {
+  position: absolute;
+  bottom: calc(0px + 2em);
+  background: rgba(75, 75, 93, 0.85);
+  width: 100%;
+  color: #fff;
+}
+
+#categories-carousel .category-caption h3 {
+  color: #fff;
+  font-size: 20px;
+}

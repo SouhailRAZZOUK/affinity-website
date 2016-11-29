@@ -19,7 +19,7 @@
 		skel.layout({
 			reset: "normalize",
 			grid: true,
-			container: 1024
+			container: 980
 		});
 
 	$(function() {

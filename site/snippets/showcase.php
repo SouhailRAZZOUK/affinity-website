@@ -1,3 +1,3 @@
-<div class="container">
-  <?php snippet('categories-showcase') ?>
+<div >
+  <?php snippet('categories-carousel') ?>
 </div>

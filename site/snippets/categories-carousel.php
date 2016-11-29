@@ -20,20 +20,20 @@ if(isset($limit)) $categories = $categories->limit($limit);
 
 ?>
 
-<div id="products-carousel" class="owl-carousel owl-theme">
+<div id="categories-carousel" class="owl-carousel owl-theme">
 
   <?php foreach($categories as $categorie): ?>
   
-    <div class="item product">
+    <div class="item category">
 
-      <a href="<?= $categorie->url() ?>" class="product-link">
+      <a href="<?= $categorie->url() ?>" class="category-link">
       
         <?php if($image = $categorie->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
           <img  src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $categorie->title()->html() ?>" class="image fit" />
         <?php endif ?>
       
-        <div class="product-caption">
-          <h3 class="product-title"><?= $categorie->title()->html() ?></h3>
+        <div class="category-caption">
+          <h3 class="category-title"><?= $categorie->title()->html() ?></h3>
         </div>
       
       </a>
