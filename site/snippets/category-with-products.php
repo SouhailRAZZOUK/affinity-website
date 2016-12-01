@@ -5,7 +5,7 @@ if(isset($productsLimit)) $products = $category->children()->visible()->limit($p
 
 ?>
 
-<div class="row 50%">
+<div class="category row 50%">
 
   <header class="12u$">
     <h3>
@@ -15,10 +15,10 @@ if(isset($productsLimit)) $products = $category->children()->visible()->limit($p
 
   <?php foreach($products as $product):?>
   
-  <div class="3u 6u(medium) 12u(small)">
+  <div class="product 3u 6u(medium) 12u(small)">
 
     <a href="<?= $product->url() ?>" class="product-link">
-      
+
       <?php if($image = $product->images()->sortBy('sort', 'asc')->first()): $thumb = $image->crop(600, 600); ?>
         <img  src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $product->title()?>" class="image fit" />
       <?php endif ?>
@@ -26,8 +26,10 @@ if(isset($productsLimit)) $products = $category->children()->visible()->limit($p
       <div class="product-caption">
         <h4 class="product-title"><?= $product->title()?></h4>
       </div>
-    
+
     </a>
+
+    <?php snippet('product-tocart-form', ['target' => $product]) ?>
     
   </div>
 

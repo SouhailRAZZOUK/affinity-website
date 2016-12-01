@@ -4,6 +4,7 @@
 
     <header>
       <h1>Shop</h1>
+      <?php snippet('shop-sub-header')?>
     </header>
 
     <section class="inner">

@@ -44,5 +44,42 @@ main.main > header > h1:before, main.main > header > h1:after {
 
 #categories-carousel .category-caption h3 {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25em;
+}
+
+.category .product img {
+  margin: 0;
+}
+
+.category .product .product-caption {
+  position: relative;
+  bottom: calc(0px + 2em);
+  background: rgba(75, 75, 93, 0.85);
+  width: 100%;
+}
+
+.category .product .product-caption h4{
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+.cart-commands a {
+  display: block;
+}
+
+.cart{
+  text-align: left;
+}
+
+.cart-commands{
+  text-align: right;
+}
+
+@media screen and (max-width:736px) {
+  .cart, .cart-commands{
+    text-align: center;
+  }
 }
