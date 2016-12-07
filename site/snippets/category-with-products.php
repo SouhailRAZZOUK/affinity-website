@@ -11,6 +11,7 @@ if(isset($productsLimit)) $products = $category->children()->visible()->limit($p
     <h3>
       <?= $category->title()?>
     </h3>
+    <a href="<?= $category->url()?>">See More</a>
   </header>
 
   <?php foreach($products as $product):?>
@@ -28,8 +29,15 @@ if(isset($productsLimit)) $products = $category->children()->visible()->limit($p
       </div>
 
     </a>
+    <div class="product-price">
+      <p>
+        Starting at: <?= $product->price()?><?= $site->currency_symbol()?>
+      </p>
+    </div>
 
-    <?php snippet('product-tocart-form', ['target' => $product]) ?>
+    <?php 
+     //snippet('product-tocart-form', ['target' => $product]) 
+     ?>
     
   </div>
 

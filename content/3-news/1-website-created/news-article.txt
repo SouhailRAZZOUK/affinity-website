@@ -1,0 +1,13 @@
+Title: Our Website is Live !!
+
+----
+
+Description: We have been working hard to get to this point, now our Website is live and working, you can shop, get news and contact us :)
+
+----
+
+Text: 
+
+----
+
+Class: subpage

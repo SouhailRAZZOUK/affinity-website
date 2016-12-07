@@ -1,0 +1,24 @@
+Title: About
+
+----
+
+Intro: This page demonstrates how you can utilize subpages to store content, like our team members shown below. This approach is especially useful when you have to handle a large number of datasets, many different kinds of data (like page sections) or very complex data with a lot of media files or fields.
+
+----
+
+Text: 
+
+## Who we are ?
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ratione deserunt, blanditiis veritatis ab consequatur libero ipsum delectus! At iure sint in, obcaecati dolorem est perspiciatis exercitationem neque voluptatem sed.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ratione deserunt, blanditiis veritatis ab consequatur libero ipsum delectus! At iure sint in, obcaecati dolorem est perspiciatis exercitationem neque voluptatem sed.
+
+
+## What we do ?
+
+A.C.S customizes items for companies and individuals around the world. 
+Such as Tshirts, polo shirts, Banners Tents, wristbands , Lapels pins and Emblems, Books, Mugs, Hats, Working gears, Pens, Fabric etc. 
+We supply raw materials and machines for customizing companies, as well as offering third-party  assistance 
+
+----
+Class: subpage

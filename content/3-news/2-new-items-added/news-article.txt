@@ -1,0 +1,13 @@
+Title: News Products are available
+
+----
+
+Description: Updating the store with new products and categories to satisfy our consumers is one of the main things we excel at in Affinity A.C.S.
+
+----
+
+Text: 
+
+----
+
+Class: subpage

@@ -1,0 +1,9 @@
+Title: Your Cart Has Been Emptied
+
+----
+
+Text: Now you can restart your shopping again, we will be happy to surve you our best
+
+----
+
+Class: subpage

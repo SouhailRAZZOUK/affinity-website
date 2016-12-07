@@ -6,7 +6,9 @@ $(document).ready(function() {
     margin:10,
     responsiveClass:true,
     nav:true,
+    autoplay:true,
     responsive:{
+
           0:{
               items:1,
               nav:true

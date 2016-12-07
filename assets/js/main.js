@@ -19,7 +19,8 @@
 		skel.layout({
 			reset: "normalize",
 			grid: true,
-			container: 980
+			conditionals: true,
+			containers: 1024
 		});
 
 	$(function() {
@@ -35,6 +36,13 @@
 					$body.removeClass('is-loading');
 				}, 100);
 			});
+
+			$('.js-accordion-trigger').bind('click', function(e){
+				jQuery(this).parent().find('.submenu').slideToggle('fast');  // apply the toggle to the ul
+				jQuery(this).parent().toggleClass('is-expanded');
+				e.preventDefault();
+			});
+
 
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {

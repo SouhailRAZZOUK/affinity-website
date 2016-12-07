@@ -4,32 +4,16 @@ Title: Contact
 
 Text: 
 
-## Follow the Kirby Team on Twitter
+## Assistance 
 
-Kirby
-(twitter: @getkirby)
-
-Bastian
-(twitter: @bastianallgeier)
-
-Nico
-(twitter: @distantnative)
-
-Sascha
-(twitter: @sashtown)
-
-Sonja
-(twitter: @texnixe)
-
-Lukas
-(twitter: @lukasbestle)
-
-Fabian
-(twitter: @fabianmichael)
+ - 008603165759310
+ - 008613718426465
+ - QQ:1485682346
+ - Address: Beijing east , Yanjiao Tianyangcheng.
 
 ----
 
-Intro: This contact page does not only contain useful resources that help you to get the most out of Kirby, but also demonstrates how to use the <mark>Structure field</mark> to create repeating content like the boxes below. If your repeating content is very complex and/or consists of more than only a few items, you can use subpages to store your data instead, like demonstrated on the (link: /about text: About page).
+Intro: 
 
 ----
 

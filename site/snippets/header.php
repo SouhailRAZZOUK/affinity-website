@@ -1,3 +1,15 @@
+<?php
+
+$pageClass = "";
+
+if($page->class() == "") {
+  $pageClass = "subpage";
+}else{
+  $pageClass = $page->class();
+}
+
+?>
+
 <!doctype html>
 <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 <head>
@@ -16,7 +28,8 @@
   <?= css('assets/css/polyfills.css') ?>
 
 </head>
-<body class="<?= $page->class()?>">
+
+<body class="<?= $pageClass?>">
 
   <header id="header">
     <div class="inner">
