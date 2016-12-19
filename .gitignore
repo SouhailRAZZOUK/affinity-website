@@ -7,4 +7,5 @@ bower.json
 .bowererrc
 thumbs/*
 assets/styles/app.css
+assets/vendor/*
 dev/site/templates/includes/bla.txt
