@@ -1,5 +1,5 @@
 {
-  "name": "affinity dependencies",
+  "name": "affinity_dependencies",
   "dependencies": {
     "skel": "latest",
     "fontawesome": "latest",
